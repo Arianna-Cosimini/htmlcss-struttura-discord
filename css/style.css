@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding: 20px; */
+}
+
+#container .lightblue{
+    background-color: #add8e6;
+    padding: 10px;
+}
+.menu{
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #daa520;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    /* margin-right: 10px; */
+}
+
+.menu ul li{
+    margin-right: 10px;
+    justify-content: space-around;
+}
