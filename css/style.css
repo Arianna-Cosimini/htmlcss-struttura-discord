@@ -37,6 +37,7 @@
 #container .lightblue .menu button{
     border: black;
     border-style: dashed;
+    background-color: transparent;
 }
 
 .menu ul{
@@ -149,6 +150,10 @@ footer{
     background-color: #7fffd4;
 }
 
+
+.footer-row > *{
+    background-color: #ffb6c1;
+}
 
 
 
