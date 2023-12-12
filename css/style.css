@@ -3,47 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#container{
-    max-width: auto;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 20px;
-}
-
-#container .lightblue{
+nav{
     background-color: #add8e6;
-    padding: 20px;
 }
 .menu{
-    max-width: 900px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+
+.menu-nav{
+    padding: 10px;
     background-color: #daa520;
     border: black;
     border-style: dashed;
-
-}
-
-#container .lightblue .menu img{
-    border: black;
-    border-style: dashed;
-}
-
-#container .lightblue .menu button{
-    border: black;
-    border-style: dashed;
-    background-color: transparent;
+    font-size: 20px;
 }
 
 .menu ul{
     display: flex;
     list-style-type: none;
-
 }
 
 .menu ul li{
@@ -52,19 +33,24 @@
     
 }
 
-.row{
-    max-width:auto;
-    margin-left: auto;
-    margin-right: auto;
+.manu-nav button{
+    border: black;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.menu-nav img{
+    border: black;
+    border-style: dashed;
 }
 
 .container{
     display: flex;
-    max-width: 600px;
+    justify-content: center;
+    padding: 50px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
-    padding: 20px;
 
 }
 
@@ -73,8 +59,8 @@
 }
 
 .row-blue .pink-square{
-    width: 400px;
-    height: 200px;
+    width: 900px;
+    height: 400px;
     background-color: #ee82ee;
     align-items: center;
     border: black;
@@ -82,16 +68,16 @@
 
 }
 .light-pink{
-    width: 300px;
-    height: 200px;
+    flex-grow: 3;
+    height: 490px;
     background-color: #1e90ff;
     border: black;
     border-style: dashed;
 }
 
 .sky-blue{
-    width: 200px;
-    height: 200px;
+    flex-grow: 2;
+    height: auto;
     background-color: #ffc0cb;
     border: black;
     border-style: dashed;
@@ -99,59 +85,59 @@
 }
 
 
-.row .row-grey{
+ .row-grey{
     background-color: #d3d3d3;
 }
+
+
 .row-grey .light-pink{
     order: 1;
 }
 
-.row .row-grey .green{
-    width: 500px;
-    height: 300px;
+ .row-grey .green{
+    flex-grow: 1;
+    height: 890px;
     background-color: #228b22;
     border: black;
     border-style: dashed;
 }
 
-.row .row-black{
+ .row-black{
     background-color: #23272a;
-    display: block;
+    
 }
 
-.row .row-black .dark-pink{
-    width: 160px;
-    height: 300px;
+ .row-black .dark-pink{
+    flex-grow: 3;
+    height: 575px;
     background-color: #f08080;
     border: black;
     border-style: dashed;
 }
 
-.row .row-black .teal-blue{
-    width: 84px;
-    height: 300px;
+ .row-black .teal-blue{
+    flex-grow: 2;
+    height: 575px;
     background-color: #20b2aa;
     border: white;
     border-style: dashed;
 }
 
 footer{
-    background-color: #23272a;
     padding: 20px;
+    background-color: #23272a;
     
 }
 
-.footer .footer-menu{
-    display: flex;
-    justify-content: space-between;
-}
 
-.footer .footer-row{
+.footer {
+    padding: 20px 0;
     background-color: #7fffd4;
+
 }
 
 
-.footer-row > *{
+.footer > *{
     background-color: #ffb6c1;
 }
 
