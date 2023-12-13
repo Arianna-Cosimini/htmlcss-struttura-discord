@@ -5,8 +5,12 @@
 }
 nav{
     background-color: #add8e6;
+    padding: 10px;
 }
+
+
 .menu{
+    padding: 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -15,7 +19,7 @@ nav{
 
 
 .menu-nav{
-    padding: 10px;
+    /* padding: 10px; */
     background-color: #daa520;
     border: black;
     border-style: dashed;
@@ -24,7 +28,9 @@ nav{
 
 .menu ul{
     display: flex;
+    justify-content: center;
     list-style-type: none;
+    flex-grow: 2;
 }
 
 .menu ul li{
@@ -33,15 +39,17 @@ nav{
     
 }
 
-.manu-nav button{
+.menu.menu-nav button{
     border: black;
     border-style: dashed;
     background-color: transparent;
+    width: 100px;
 }
 
 .menu-nav img{
     border: black;
     border-style: dashed;
+    width: 100px;
 }
 
 .container{
@@ -54,19 +62,34 @@ nav{
 
 }
 
+/* .row{
+    display: flex;
+} */
+
 .row-blue{
     background-color: #00008b;
+    padding: 50px;
+
 }
 
-.row-blue .pink-square{
-    width: 900px;
+
+.container-small{
+    /* display: flex; */
+    justify-content: center;
+    /* padding: 50px; */
+    max-width: 800px;
     height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-small .pink-square{
+    flex-grow: 1;
     background-color: #ee82ee;
-    align-items: center;
     border: black;
     border-style: dashed;
 
 }
+
 .light-pink{
     flex-grow: 3;
     height: 490px;
